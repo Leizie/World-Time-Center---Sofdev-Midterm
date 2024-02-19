@@ -1,4 +1,4 @@
 # World-Time-Center---Sofdev-Midterm
 
 
-This is the repository for my midterm project for Software Development 2
+This is the repository for my Software Development Project

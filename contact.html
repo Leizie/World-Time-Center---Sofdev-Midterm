@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta anme="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Time Center</title>
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="icon" href="imgs/rolexicon.ico" type="image">
@@ -65,27 +65,24 @@
             <div class="app-contact">CONTACT INFO : World Time Center</div>
           </div>
           <div class="screen-body-item">
-            <div class="app-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+              <input type="hidden" name="access_key" value="f750fd32-8bf7-4e6e-86a8-2b9f44e5bb0e">
               <div class="app-form-group">
-                <input class="app-form-control" placeholder="NAME">
-              </div>
-              <div class="app-form-group">
-                <input class="app-form-control" placeholder="EMAIL">
-              </div>
-              <div class="app-form-group">
-                <input class="app-form-control" placeholder="CONTACT NO">
-              </div>
-              <div class="app-form-group message">
-                <input class="app-form-control" placeholder="MESSAGE">
-              </div>
+                <input type="text" class="app-form-control" name="name" placeholder="NAME">
+                <input type="email" class="app-form-control" name="email" placeholder="EMAIL">
+                <input type="text" class="app-form-control" name="contact_no" placeholder="CONTACT NO">
+                <input type="text" class="app-form-control" name="message" placeholder="MESSAGE">
               <div class="app-form-group buttons">
                 <button class="app-form-button">CANCEL</button>
-                <button class="app-form-button">SEND</button>
+                <button type="submit" class="app-form-button">SEND</button>
               </div>
+            </form>
             </div>
           </div>
         </div>
       </div>
+    
       <div class="credits">
         <b>Made By</b>&nbsp;
         <a class="credits-link" href="https://github.com/Leizie" target="_blank">
